@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+
+{% block body %}
+
+<div class="container">
+    <form action="/add_movies" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Movie Name</label>
+          <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="mb-3">
+            <label for="time" class="form-label">Movie Time</label>
+            <input type="time" class="form-control" id="time" name="time">
+        </div>
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" class="form-control" id="location" name="location">
+        </div>
+        
+        <center>
+        <button type="submit" class="btn btn-primary b">Add Movie</button>
+    </center>
+      </form>
+</div>
+
+{% endblock body %}

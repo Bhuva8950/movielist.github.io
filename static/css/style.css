@@ -1,0 +1,22 @@
+.nv{
+    background-color: aqua;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.border_solid{
+    border: solid black;
+}
+
+.msg{
+    color: red;
+    font-size:large;
+    font-weight: bold;
+}
+
+.b{
+    width: 100%;
+    margin-top: 1%;
+}
